@@ -10,12 +10,6 @@ public class Main {
 
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("test");
 		EntityManager em = emf.createEntityManager();
-		EntityTransaction tx = em.getTransaction();
-		tx.begin();
-		Sample sample = new Sample();
-		sample.id = 23L;
-		sample.name = "some name";
-		em.persist(sample);
-		em.flush();
+
 	}
 }

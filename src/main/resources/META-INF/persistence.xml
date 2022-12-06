@@ -12,8 +12,8 @@
 
 <!--            comment exactly one of the following two lines to toggle the warning-->
 
-<!--            <property name="javax.persistence.sharedCache.mode" value="UNSPECIFIED"/>-->
-            <property name="jakarta.persistence.sharedCache.mode" value="UNSPECIFIED"/>
+            <property name="javax.persistence.sharedCache.mode" value="UNSPECIFIED"/>
+<!--            <property name="jakarta.persistence.sharedCache.mode" value="UNSPECIFIED"/>-->
 
             <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
             <property name="hibernate.hibernate.hbm2ddl.auto" value="create"/>
