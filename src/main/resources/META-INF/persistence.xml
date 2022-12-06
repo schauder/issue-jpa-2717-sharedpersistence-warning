@@ -5,14 +5,14 @@
     <persistence-unit name="test">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <class>de.schauderhaft.simplehibernate.Sample</class>
+        <shared-cache-mode>UNSPECIFIED</shared-cache-mode>
         <properties>
             <property name="jakarta.persistence.jdbc.driver" value="org.h2.Driver"/>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:h2:mem:simplehibernate"/>
             <property name="jakarta.persistence.jdbc.user" value="jens"/>
 
-<!--            comment exactly one of the following two lines to toggle the warning-->
-
-            <property name="javax.persistence.sharedCache.mode" value="UNSPECIFIED"/>
+<!--            comment exactly one of the following two lines or the <shared-cache-mode> element below to toggle the warning-->
+<!--            <property name="javax.persistence.sharedCache.mode" value="UNSPECIFIED"/>-->
 <!--            <property name="jakarta.persistence.sharedCache.mode" value="UNSPECIFIED"/>-->
 
             <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>

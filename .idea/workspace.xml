@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abcb2464-bdec-47c9-92b1-e2307b71d303" name="Changes" comment="demonstrate warning about sharedCache mode">
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/schauderhaft/simplehibernate/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/schauderhaft/simplehibernate/Main.java" afterDir="false" />
+    <list default="true" id="abcb2464-bdec-47c9-92b1-e2307b71d303" name="Changes" comment="remove superfluous code.">
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,8 +80,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670334496930</updated>
-      <workItem from="1670334498454" duration="4501000" />
+      <workItem from="1670334498454" duration="5213000" />
     </task>
+    <task id="LOCAL-00001" summary="remove superfluous code.">
+      <created>1670341902515</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670341902515</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,7 +108,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="demonstrate warning about sharedCache mode" />
-    <option name="LAST_COMMIT_MESSAGE" value="demonstrate warning about sharedCache mode" />
+    <MESSAGE value="remove superfluous code." />
+    <option name="LAST_COMMIT_MESSAGE" value="remove superfluous code." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
